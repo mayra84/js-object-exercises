@@ -23,6 +23,7 @@ const user = {
  * @returns {string}
  */
 function level1exercise1(user) {
+  return user.password
   
 }
 
@@ -33,6 +34,7 @@ function level1exercise1(user) {
  * @returns {string}
  */
 function level1exercise2(user) {
+   return user.first + ' ' + user.last
 
 }
 
@@ -43,7 +45,7 @@ function level1exercise2(user) {
  * @returns {string}
  */
 function level1exercise3(user) {
-  
+  return `Hello, ${user.first} ${user.last}!`
 }
 
 /**
