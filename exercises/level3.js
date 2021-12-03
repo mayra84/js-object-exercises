@@ -39,6 +39,13 @@ const exampleProductArray = [
  * @returns {string}
  */
 function level3exercise1(products) {
+  // create a variable to store all prices
+  SubmitEvent = 0 
+  for (let i = 0; i < exampleProductArray.length; i++ ) {
+    exampleProductArray[i].price += sum
+  }
+
+  return sum
 
 }
 
